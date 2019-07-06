@@ -96,7 +96,7 @@ class DocumentsHandler:
         return loaded_documents
 
 
-class Adapter(StoreService):
+class Adapter:
 
     def __init__(self, adaptee):
         self._adaptee = adaptee
